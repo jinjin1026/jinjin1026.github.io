@@ -34,8 +34,8 @@
             //|| or
             //! not
 
-            if (c>=50 && java>=50 && js>=50){
-                if ( c>=85 || java>=85 || js>=85){
+           /* if (c>=50 && java>=50 && js>=50){
+                if ( c>85 || java>85 || js>85){
                 document.write("<h1>This student has Excellent result!</h1>");
             }else{
                 document.write("<h1>This student is Pass!</h1>");
@@ -45,7 +45,18 @@
             }else{
                 doucument.write("<h1>This student is Fail!</h1>");
             }
+        }*/
+       
+            if(c>85 || java>85 || js>85){
+                document.write("<h1>This is Excellent Result!</h1>");
+            }else if(c>50 && java>50 && js>50){
+                document.write("<h1>This subject is Pass!</h1>");
+            }else {
+                document.write("<h1>This subject is Fail!</h1>");
+            }
+
         }
+       
     </script>
 
 </body>
